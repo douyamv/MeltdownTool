@@ -50,6 +50,7 @@ ffffffffa3e000b5 = @
 
 If it compiles but fails with `Illegal instruction` then either your hardware
 is very old or it is a VM. Try compiling with:
+key:MeltdownTool , Meltdown hack tool, Meltdown Spectre,CVE-2017-5754)和"Spectre"(CVE-2017-5753 & CVE-2017-5715 Intel, AMD,　Qualcomm ,Speculative Execution, 2018,1,4
 
 ```shell
 $ make CFLAGS=-DHAVE_RDTSCP=0 clean all
